@@ -13,6 +13,7 @@
 		2C402A8826B9A9B1009BC81C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C402A8626B9A9B1009BC81C /* Main.storyboard */; };
 		2C402A8A26B9A9B4009BC81C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C402A8926B9A9B4009BC81C /* Assets.xcassets */; };
 		2C402A8D26B9A9B4009BC81C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C402A8B26B9A9B4009BC81C /* LaunchScreen.storyboard */; };
+		2CD73FAD26FB702C00D26CAA /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD73FAC26FB702C00D26CAA /* MoviesService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2C402A8926B9A9B4009BC81C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C402A8C26B9A9B4009BC81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C402A8E26B9A9B4009BC81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD73FAC26FB702C00D26CAA /* MoviesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,21 @@
 				2C402A8026B9A9B1009BC81C /* AppDelegate.swift */,
 				2C402A8226B9A9B1009BC81C /* SceneDelegate.swift */,
 				2C402A8426B9A9B1009BC81C /* ViewController.swift */,
+				2CD73FA926FB6FB600D26CAA /* Services */,
 				2C402A8626B9A9B1009BC81C /* Main.storyboard */,
 				2C402A8926B9A9B4009BC81C /* Assets.xcassets */,
 				2C402A8B26B9A9B4009BC81C /* LaunchScreen.storyboard */,
 				2C402A8E26B9A9B4009BC81C /* Info.plist */,
 			);
 			path = "Mark-1";
+			sourceTree = "<group>";
+		};
+		2CD73FA926FB6FB600D26CAA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2CD73FAC26FB702C00D26CAA /* MoviesService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				2C402A8526B9A9B1009BC81C /* ViewController.swift in Sources */,
 				2C402A8126B9A9B1009BC81C /* AppDelegate.swift in Sources */,
+				2CD73FAD26FB702C00D26CAA /* MoviesService.swift in Sources */,
 				2C402A8326B9A9B1009BC81C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
